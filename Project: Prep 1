@@ -36,20 +36,32 @@
 
 ## Work Plan
 - How you will identify tasks, assign tasks, know when they are complete, and manage work in general?
+1. Use creately to establish a wire frame to identify tasks associated with project. 
+1. Use GitHub projects to assign tasks and tract completion kanban board.
 - What project management tool will be used?
+1. GitHub projects, trello, and creately.
+
 
 ## Git Process
 - What components of your project will live on GitHub?
-- How will you share the repository with your teammates?
-- What is your Git flow?
-- Will you be using a PR review workflow? If so, consider:
-- How many people must review a PR?
-- Who merges PRs?
-- How often will you merge?
-- How will you communicate that it’s time to merge?
+  Our "about me" slide show
 
-## Submitting Your Work
-- This is a group submission. Only one person must submit for group credit.
-- Please have everyone’s name at the top of the doc.
-- Submit a link to your the GitHub markdown file where you have created your Team Agreement.
-- This step must be completed and approved before proceeding with any project work. Notify your instructor when this is ready for review.
+- How will you share the repository with your teammates?
+  shared link, all are collaborators.
+
+- What is your Git flow?
+  ACP and then merge
+
+- Will you be using a PR review workflow? If so, consider:
+
+1. How many people must review a PR?
+  At least 2
+
+1. Who merges PRs?
+  The final reviewer.
+
+1. How often will you merge?
+  After any significant accomplishment or at end of day.
+
+1. How will you communicate that it’s time to merge?
+  Slack message "ready to review"
