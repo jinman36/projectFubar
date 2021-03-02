@@ -10,6 +10,3 @@
 
 ## Links from Class
 - [Creatly](http://creately.com/)
-
-
-
