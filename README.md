@@ -20,13 +20,14 @@ Link to project management board
 ## Links from Class
 - [Creatly](http://creately.com/)
 
-## Wireframe:
-- Index
-![](img/index.jpg)
-- About Me
-![](img/about-me.jpg)
-- Recommendation
-![](img/recommendation.jpg)
-- Domain Model
-![](img/domain-model.jpg)
+
+## Wireframes:
+
+![Index](img/index.jpg)
+
+![About Me](img/about-me.jpg)
+
+![Recommendation](img/recommendation.jpg)
+
+![Domain Model](img/domain-model.jpg)
 
