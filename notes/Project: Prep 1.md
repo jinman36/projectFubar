@@ -2,6 +2,14 @@
 
 collaborators Jeff Inman, Qadree Trimble, Morgan Jackson, and Cordell Andreade.
 
+## Table of Contents
+ - [Conflict Plan](#conflict-plan)
+ - [Communication Plan](#communication-plan)
+ - [Work Plan](#work-plan)
+ - [Git Process](#git-process)
+ - [Submitting Your Work](#submitting-your-work)
+
+
 ## Conflict Plan
 - What is the group process to resolve conflict, when it arises?
   - Respectful conversations about pros and cons of all available ideas.
