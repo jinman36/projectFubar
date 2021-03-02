@@ -1,5 +1,14 @@
+# Final Project
 
+## Project Name
 
+## Authors:
+* Jeff Inman
+* Qadree Trimble
+* Morgan Jackson
+
+Link to project management board 
+[Project Board](https://github.com/users/jinman36/projects/1)
 
 ## Table of Contents
  - [Conflict Plan](#Conflict-Plan)
@@ -21,3 +30,4 @@
 ![Recommendation](img/recommendation.jpg)
 
 ![Domain Model](img/domain-model.jpg)
+
