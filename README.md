@@ -9,8 +9,6 @@
 * Morgan Jackson
 
 
-
-
 ## Table of Contents
  - [Conflict Plan](#Conflict-Plan)
  - [Communication Plan](#Communication-Plan)
