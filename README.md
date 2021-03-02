@@ -22,4 +22,12 @@ Link to project management board
 - [Creatly](http://creately.com/)
 
 
-
+## Wireframe:
+- Index
+![](img/index.jpg)
+- About Me
+![](img/about-me.jpg)
+- Recommendation
+![](img/recommendation.jpg)
+- Domain Model
+![](img/domain-model.jpg)
