@@ -16,22 +16,24 @@ Link to project management board
 >>>>>>> 44b355a5e5724f03786e1a0495f74824333606a4
 
 ## Table of Contents
- - [Conflict Plan](#Conflict-Plan)
- - [Communication Plan](#Communication-Plan)
- - [Work Plan](#Work-Plan)
- - [Git Process](#Git-Process)
- - [Submitting Your Work](#Submitting-Your-Work)
+ - [Conflict Plan](notes/Project:-Prep-1.md)
+ - [Communication Plan](notes/Project:-Prep-1.md)
+ - [Work Plan](notes/Project:-Prep-1.md)
+ - [Git Process](notes/Project:-Prep-1.md)
+ - [Submitting Your Work](notes/Project:-Prep-1.md)
 
 ## Links from Class
 - [Creatly](http://creately.com/)
 
+## User Stories
+- [User Stories](notes/userStories.md)
+
+## Vision
+- [Requirements](requirements.md)
 
 ## Wireframes:
-
 ![Index](img/index.jpg)
-
 ![About Me](img/about-me.jpg)
-
 ![Recommendation](img/recommendation.jpg)
 
 ![Domain Model](img/domain-model.jpg)
