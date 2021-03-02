@@ -21,7 +21,6 @@ Link to project management board
 ## Links from Class
 - [Creatly](http://creately.com/)
 
-
 ## Wireframe:
 - Index
 ![](img/index.jpg)
@@ -31,3 +30,4 @@ Link to project management board
 ![](img/recommendation.jpg)
 - Domain Model
 ![](img/domain-model.jpg)
+
