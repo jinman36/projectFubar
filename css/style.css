@@ -1,7 +1,7 @@
 body {
   background-color: bisque;
 }
-
+/* Sidebar start */
 sidebar{
   background-color: antiquewhite;
   width: 260px;
@@ -43,4 +43,13 @@ li {
 #recommendation:hover {
   background-color: rgb(14, 241, 52);
   transition: 2s;
+}
+/* sidebar finish */
+
+/* main styling */
+section img {
+  border: 5px solid red;
+  margin-left: 350px;
+  height: 400px;
+  width: 1300px;
 }
