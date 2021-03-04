@@ -9,6 +9,11 @@
 
 Link to project management board 
 [Project Board](https://github.com/users/jinman36/projects/1)
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 44b355a5e5724f03786e1a0495f74824333606a4
 
 ## Table of Contents
  - [Conflict Plan](notes/Project:-Prep-1.md)
