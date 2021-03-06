@@ -7,7 +7,7 @@ let myContainer = document.querySelector('#container');
 let imageOne = document.querySelector('#image-one');
 let imageTwo = document.querySelector('#image-two');
 
-function Selector(name, fileExt = 'png') {
+function Selector(name, fileExt = 'jpg') {
   this.name = name;
   this.src = `img/${name}.${fileExt}`;
 }
