@@ -57,34 +57,48 @@ li a {
 /* main styling */
 
 /* seattle skyline image start */
-section img {
+#skyline {
   border: 5px solid red;
-  margin-left: 350px;
+  margin-left: 600px;
   height: 400px;
-  width: 1300px;
+  width: 1000px;
 }
-/* seattle skylone image end */
+/* seattle skyline image end */
 
 /* outdoor/indoor image start */
-#outdoor {
-  /* display: inline; */
-  width: 500px;
-  /* height: 700px; */
-  /* margin-left: 600px;
-  margin-right: 170px; */
+/* #outdoor {
+  display: inline;
+  margin-left: 600px;
+  margin-right: 170px;
   margin-top: 30px;
   cursor: pointer;
 }
 
 #indoor {
-  /* display: inline; */
-  width: 300px;
-  height: 700px;
+  display: inline;
+  margin-top: 30px;
   cursor: pointer;
+} */
+
+
+#container {
+  display: inline-flex;
 }
 
-div img{
+#image-one {
   border: 5px solid blue;
+  margin-top: 30px;
+  margin-left: 600px;
+  width: 450px;
+  height: 450px;
+}
+
+#image-two {
+  border: 5px solid blue;
+  margin-top: 30px;
+  margin-left: 90px;
+  width: 450px;
+  height: 450px;
 }
 /* outdoor/indoor image end */
 
