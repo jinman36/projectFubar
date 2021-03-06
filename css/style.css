@@ -54,13 +54,17 @@ li a {
 /* sidebar finish */
 
 /* main styling */
+
+/* seattle skyline image start */
 section img {
   border: 5px solid red;
   margin-left: 350px;
   height: 400px;
   width: 1300px;
 }
+/* seattle skylone image end */
 
+/* outdoor/indoor image start */
 #outdoor {
   display: inline;
   margin-left: 600px;
@@ -80,6 +84,7 @@ div img{
   margin-right: 40px;
   border: 5px solid blue;
 }
+/* outdoor/indoor image end */
 
 /* main styling end */
 
