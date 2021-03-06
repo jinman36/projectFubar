@@ -86,6 +86,14 @@ div img{
 }
 /* outdoor/indoor image end */
 
+/* recommendation page start */
+
+#recommend {
+  margin-left: 300px;
+  width: 300px;
+  height: 700px;
+}
+
 /* main styling end */
 
 /* About Us styling start*/
