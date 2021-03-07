@@ -35,26 +35,26 @@ function handleClick(event) {
     // alert('Please click on an image');
 
   }
-  
-    choice++;
-    // console.log(event.target.title);
-    choices.push(event.target.title);
-    if (choice === 1) {
-      renderSelector(food, drinks);
-    } else if (choice === 2) {
-      // firstChoice = event.target.title;
-      renderSelector(couple, group);
-    } else if (choice === 3) {
-      // thirdChoice = event.target.title;
-      // console.log(choices);
-      // below is proof of life, replace with reccomendation function call
-      // console.log('renderRandomRestaurant');
-      myContainer.innerHTML = ''; //is this what we want to do? remove event listener?
-      document.getElementById('recommendation').style.display = 'block';
-      localStorage.setItem('userChoices', JSON.stringify(choices));
-    }
+
+  choice++;
+  // console.log(event.target.title);
+  choices.push(event.target.title);
+  if (choice === 1) {
+    renderSelector(food, drinks);
+  } else if (choice === 2) {
+    // firstChoice = event.target.title;
+    renderSelector(couple, group);
+  } else if (choice === 3) {
+    // thirdChoice = event.target.title;
+    // console.log(choices);
+    // below is proof of life, replace with reccomendation function call
+    // console.log('renderRandomRestaurant');
+    myContainer.innerHTML = ''; //is this what we want to do? remove event listener?
+    document.getElementById('recommendation').style.display = 'block';
+    localStorage.setItem('userChoices', JSON.stringify(choices));
   }
 }
+
 
 renderSelector(outdoor, indoor);
 myContainer.addEventListener('click', handleClick);
