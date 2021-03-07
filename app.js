@@ -19,9 +19,6 @@ let group = new Selector('group');
 let food = new Selector('food');
 let drinks = new Selector('drinks');
 
-// function getRandomIndex(arr) {
-//   return Math.floor(Math.random() * arr.length);
-// }
 
 function renderSelector(firstSelector, secondSelector) {
 
@@ -37,6 +34,8 @@ function handleClick(event) {
   if (event.target === imageOne || event.target === imageTwo) {
     // alert('Please click on an image');
 
+  }
+  
     choice++;
     // console.log(event.target.title);
     choices.push(event.target.title);
