@@ -61,7 +61,7 @@ li a {
   border: 5px solid red;
   margin-left: 600px;
   height: 400px;
-  width: 1000px;
+  width: 700px;
 }
 /* seattle skyline image end */
 
@@ -89,16 +89,16 @@ li a {
   border: 5px solid blue;
   margin-top: 30px;
   margin-left: 600px;
-  width: 450px;
-  height: 450px;
+  width: 300px;
+  height: 350px;
 }
 
 #image-two {
   border: 5px solid blue;
   margin-top: 30px;
   margin-left: 90px;
-  width: 450px;
-  height: 450px;
+  width: 300px;
+  height: 350px;
 }
 /* outdoor/indoor image end */
 
