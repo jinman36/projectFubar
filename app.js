@@ -19,9 +19,6 @@ let group = new Selector('group');
 let food = new Selector('food');
 let drinks = new Selector('drinks');
 
-// function getRandomIndex(arr) {
-//   return Math.floor(Math.random() * arr.length);
-// }
 
 function renderSelector(firstSelector, secondSelector) {
 
@@ -40,6 +37,8 @@ function handleClick(event) {
   choice++;
   // console.log(event.target.title);
   choices.push(event.target.title);
+  localStorage.setItem('userChoices', JSON.stringify(choices));
+  document.getElementById('recommendation').style.display = 'block';
   if (choice === 1) {
     renderSelector(food, drinks);
   } else if (choice === 2) {
@@ -51,8 +50,7 @@ function handleClick(event) {
     // below is proof of life, replace with reccomendation function call
     // console.log('renderRandomRestaurant');
     myContainer.innerHTML = ''; //is this what we want to do? remove event listener?
-    document.getElementById('recommendation').style.display = 'block';
-    localStorage.setItem('userChoices', JSON.stringify(choices));
+    // localStorage.setItem('userChoices', JSON.stringify(choices));
   }
 
 }
