@@ -1,5 +1,6 @@
 body {
   background-color: bisque;
+  width: 960px;
 }
 /* Sidebar start */
 sidebar{
@@ -54,14 +55,18 @@ li a {
 /* sidebar finish */
 
 /* main styling */
-section img {
-  border: 5px solid red;
-  margin-left: 350px;
-  height: 400px;
-  width: 1300px;
-}
 
-#outdoor {
+/* seattle skyline image start */
+#skyline {
+  border: 5px solid red;
+  margin-left: 600px;
+  height: 400px;
+  width: 700px;
+}
+/* seattle skyline image end */
+
+/* outdoor/indoor image start */
+/* #outdoor {
   display: inline;
   margin-left: 600px;
   margin-right: 170px;
@@ -70,15 +75,44 @@ section img {
 }
 
 #indoor {
-  display: inline-flex;
+  display: inline;
   margin-top: 30px;
   cursor: pointer;
+} */
+
+
+#container {
+  display: inline-flex;
 }
 
-div img{
-  text-align: center;
-  margin-right: 40px;
+#image-one {
   border: 5px solid blue;
+  margin-top: 30px;
+  margin-left: 600px;
+  width: 300px;
+  height: 350px;
+}
+
+#image-two {
+  border: 5px solid blue;
+  margin-top: 30px;
+  margin-left: 90px;
+  width: 300px;
+  height: 350px;
+}
+/* outdoor/indoor image end */
+
+/* recommendation page start */
+
+#recommend {
+  margin-left: 300px;
+  width: 300px;
+  height: 700px;
+}
+
+#recommend img {
+  width: 400px;
+  height: 500px;
 }
 
 /* main styling end */
@@ -89,6 +123,7 @@ div img{
 .qbio img {
   width: 300px;
   height: 390px;
+  margin-left: 330px;
   margin-right: 30px;
   float: left;
 }
@@ -105,6 +140,7 @@ div img{
 .mbio img{
   width: 300px;
   height: 390px;
+  margin-left: 330px;
   margin-right: 30px;
   float: left;
 }
@@ -121,6 +157,7 @@ div img{
 .jbio img{
   width: 300px;
   height: 390px;
+  margin-left: 330px;
   margin-right: 30px;
   float: left;
 }

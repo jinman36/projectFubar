@@ -7,7 +7,7 @@ let myContainer = document.querySelector('#container');
 let imageOne = document.querySelector('#image-one');
 let imageTwo = document.querySelector('#image-two');
 
-function Selector(name, fileExt = 'png') {
+function Selector(name, fileExt = 'jpg') {
   this.name = name;
   this.src = `img/${name}.${fileExt}`;
 }
@@ -19,9 +19,6 @@ let group = new Selector('group');
 let food = new Selector('food');
 let drinks = new Selector('drinks');
 
-// function getRandomIndex(arr) {
-//   return Math.floor(Math.random() * arr.length);
-// }
 
 function renderSelector(firstSelector, secondSelector) {
 
@@ -34,9 +31,11 @@ function renderSelector(firstSelector, secondSelector) {
 
 
 function handleClick(event) {
-  if (event.target === myContainer) {
+  if (event.target === imageOne || event.target === imageTwo) {
     // alert('Please click on an image');
+
   }
+
   choice++;
   // console.log(event.target.title);
   choices.push(event.target.title);
@@ -54,8 +53,8 @@ function handleClick(event) {
     document.getElementById('recommendation').style.display = 'block';
     localStorage.setItem('userChoices', JSON.stringify(choices));
   }
-
 }
+
 
 renderSelector(outdoor, indoor);
 myContainer.addEventListener('click', handleClick);
