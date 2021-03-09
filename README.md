@@ -1,6 +1,8 @@
 # Final Project
 
 ## Seattlight
+    - We built this website with the intent to help the user make a decision on what to choose to do for a night out. Utilizing Javascript, the user can choose between a series of picture choices that will help us create a custom recommendation, stored to local storage, that will be displayed by following the recommendations link to the following page, where our Chef Qadree will hand them their custom recommendation himself.
+
 
 ### Authors:
 * Jeff Inman
@@ -24,10 +26,9 @@ Link to project management board
 * [Requirements](requirements.md)
 
 ### Wireframes:
-![Index](img/index.jpg)
-![About Me](img/about-me.jpg)
-![Recommendation](img/recommendation.jpg)
-
+![Index](img/Index.JPG)
+![About Me](img/about-me.JPG)
+![Recommendation](img/Recommendation.JPG)
 ![Domain Model](img/domain-model.jpg)
 
 ### Links 
@@ -36,4 +37,4 @@ Link to project management board
 
 ### Credits and Collaborations
 * Ryan Gallaway (instructor)
-* Michael  (TA)
+* Michael Faulk (TA)
