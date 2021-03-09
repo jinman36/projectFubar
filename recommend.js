@@ -21,7 +21,7 @@ function Restaurant(src, name, phone, website, indoor, outdoor, food, drinks, co
 
 
 new Restaurant(
-  'img/Qadree.png', 
+  'img/Iedge.jpg', 
   'Edgewater',
   '206-269-4575',
   'https://www.edgewaterhotel.com/seattle-six-seven-restaurant/',
@@ -34,8 +34,7 @@ new Restaurant(
 ); 
 
 new Restaurant(
-  'img/Qadree.png', 
-
+  'img/Imomiji.png', 
   'Momiji',
   '206-457-4068',
   'https://www.momijiseattle.com/',
@@ -48,8 +47,7 @@ new Restaurant(
 );
 
 new Restaurant(  
-  'img/Qadree.png', 
-
+  'img/Itoulouse.jpg', 
   'Toulouse',
   '206-432-9069',
   'http://toulousepetit.com/',
@@ -62,8 +60,7 @@ new Restaurant(
 );
 
 new Restaurant(
-  'img/Qadree.png', 
-
+  'img/I100lb.jpg', 
   'The 100 Pound Clam',
   '206-453-5067',
   'https://www.100poundclam.com/',
@@ -76,8 +73,7 @@ new Restaurant(
 );
 
 new Restaurant(
-  'img/Qadree.png', 
-
+  'img/Imax.jpg', 
   'Maximilien',
   '206-682-7270',
   'https://www.maximilienrestaurant.com/',
@@ -90,8 +86,7 @@ new Restaurant(
 );
 
 new Restaurant(
-  'img/Qadree.png', 
-
+  'img/Irays.jpg', 
   'Ray\'s Cafe',
   '206-789-3770',
   'https://www.rays.com/cafe/',
@@ -104,8 +99,7 @@ new Restaurant(
 );
 
 new Restaurant(
-  'img/Qadree.png', 
-
+  'img/Ireuben.jpg', 
   'Reuben\'s',
   '206-h784-2859',
   'https://reubensbrews.com/visit-us/',
@@ -118,8 +112,7 @@ new Restaurant(
 );
 
 new Restaurant(
-  'img/Qadree.png', 
-
+  'img/Iliberty.jpg', 
   'Liberty',
   '206-323-9898',
   'http://www.libertybars.com/',
@@ -132,8 +125,7 @@ new Restaurant(
 );
 
 new Restaurant(
-  'img/Qadree.png', 
-
+  'img/Iartusi.png', 
   'Artusi',
   '206-251-7673',
   'http://artusibar.com/',
