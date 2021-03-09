@@ -1,8 +1,10 @@
-## Summary of idea
+# Summary of idea - Vision
 Restaurant Chooser
 
 ## What problem or pain point does it solve? 
 - Choosing somewhere to go on a Friday night
+
+## Why Should we care about your product?
 
 ## a. Keep it high level without going into too much detail. (3-4 sentences is enough)
 - User can make a number of choices and a recommendation will be given based off of those choices.
@@ -33,3 +35,5 @@ Restaurant Chooser
 
 morgan - testing 
 Qadree's note: Added for Morgan's pleasure!
+
+more tests
