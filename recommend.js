@@ -31,7 +31,7 @@ new Restaurant(
   true,
   true,
   true,
-);
+); 
 
 new Restaurant(
   'img/Qadree.png', 

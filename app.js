@@ -7,6 +7,12 @@ let myContainer = document.querySelector('#container');
 let imageOne = document.querySelector('#image-one');
 let imageTwo = document.querySelector('#image-two');
 
+
+function userWelcome() {
+  let welcomeMessage = alert('Welcome, please help us create a custom recommendation by clicking through the pictures that generate below!');
+}
+userWelcome();
+
 function Selector(name, fileExt = 'jpg') {
   this.name = name;
   this.src = `img/${name}.${fileExt}`;
@@ -54,6 +60,7 @@ function handleClick(event) {
     localStorage.setItem('userChoices', JSON.stringify(choices));
   }
 }
+
 
 
 renderSelector(outdoor, indoor);
