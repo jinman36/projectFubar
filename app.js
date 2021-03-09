@@ -9,9 +9,8 @@ let imageTwo = document.querySelector('#image-two');
 
 
 function userWelcome() {
-  let welcomeMessage = alert('Welcome, please help us create a custom recommendation by clicking through the pictures that generate below!');
+  let welcomeMessage = alert('Welcome, please help us create a custom restaurant recommendation by clicking through the pictures that generate below!');
 }
-userWelcome();
 
 function Selector(name, fileExt = 'jpg') {
   this.name = name;
@@ -27,10 +26,10 @@ let drinks = new Selector('drinks');
 
 
 function renderSelector(firstSelector, secondSelector) {
-
+  
   imageOne.src = firstSelector.src;
   imageOne.title = firstSelector.name;
-
+  
   imageTwo.src = secondSelector.src;
   imageTwo.title = secondSelector.name;
 }
@@ -39,9 +38,9 @@ function renderSelector(firstSelector, secondSelector) {
 function handleClick(event) {
   if (event.target === imageOne || event.target === imageTwo) {
     // alert('Please click on an image');
-
+    
   }
-
+  
   choice++;
   // console.log(event.target.title);
   choices.push(event.target.title);
@@ -63,5 +62,6 @@ function handleClick(event) {
 
 
 
+userWelcome();
 renderSelector(outdoor, indoor);
 myContainer.addEventListener('click', handleClick);
