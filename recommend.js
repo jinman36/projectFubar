@@ -212,3 +212,7 @@ function renderRecommendation() {
   document.getElementById('restaurant-link').setAttribute('href', ourRecommendation.website);
 }
 renderRecommendation();
+
+function refreshPage(){
+  window.location.reload();
+}
