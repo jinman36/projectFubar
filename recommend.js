@@ -3,7 +3,6 @@
 let allRestaurants = [];
 let choices = JSON.parse(localStorage.getItem('userChoices'));
 
-
 function Restaurant(src, name, phone, website, indoor, outdoor, food, drinks, couple, group, blurb) {
 
   this.src = src;
@@ -18,7 +17,6 @@ function Restaurant(src, name, phone, website, indoor, outdoor, food, drinks, co
   this.group = group;
   allRestaurants.push(this);
 }
-
 
 new Restaurant(
   'img/Iedge.jpg', 
@@ -137,7 +135,6 @@ new Restaurant(
   false,
 );
 
-
 let recommendations = [];
 function getRecommendation() {
   console.log(choices.length);
@@ -201,7 +198,6 @@ function getRandomIndex() {
 }
 
 getRecommendation();
-// console.log(recommendations);
 
 function renderRecommendation() {
   let ourRecommendation = recommendations[getRandomIndex()];
@@ -212,3 +208,7 @@ function renderRecommendation() {
   document.getElementById('restaurant-link').setAttribute('href', ourRecommendation.website);
 }
 renderRecommendation();
+
+function refreshPage(){
+  window.location.reload();
+}
