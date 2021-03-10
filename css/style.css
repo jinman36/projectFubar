@@ -185,3 +185,15 @@ footer {
   font-size: 30px;
   color: bisque;
 }
+
+button {
+  cursor: pointer;
+  background-color:bisque;
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color: black;
+  color: bisque;
+  transition: 5s;
+}
