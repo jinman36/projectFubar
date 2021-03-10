@@ -180,6 +180,8 @@ h2 {
 /* About Us styling end */
 
 footer {
-  margin top: 70px;
+  margin-top: 70px;
+  margin-left: 350px;
+  font-size: 30px;
   color: bisque;
 }
